@@ -29,10 +29,11 @@ Build description will be made available on www.robertfriberg.no
         
         gpio mode 26 pwm
 
-     Check status with
+    Check status with
      
         gpio readall
-
+   
+    Mode should be ALT0
 
 
 - Download and build vplotter
