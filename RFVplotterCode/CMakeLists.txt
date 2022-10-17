@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.6)
 project(vplotter)
 
-find_library(WIRINGPI_LIBRARIES NAMES wiringPi)
+find_library(WIRINGPI_LIBRARIES NAMES WiringPi)
 find_package(FLEX)
 
 FLEX_TARGET(Gcode gcode.l lex.xx.cc)
