@@ -14,7 +14,7 @@ Build description will be made available on www.robertfriberg.no
 
 - Install necessary packages: git, cmake, flex and [wiringPi](http://wiringpi.com)
 
-        sudo apt-get install git-core cmake flex wiringpi
+        sudo apt install git-core cmake flex wiringpi
 
 - Download and build vplotter:
 
