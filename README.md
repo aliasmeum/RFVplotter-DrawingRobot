@@ -12,9 +12,20 @@ Build description will be made available on www.robertfriberg.no
 
 - Install Raspberry Pi OS: [www.raspberrypi.org/downloads/](https://www.raspberrypi.org/downloads/)
 
-- Install necessary packages: git, cmake, flex and [wiringPi](http://wiringpi.com)
+- Install necessary packages: git, cmake and flex
 
-        sudo apt install git-core cmake flex wiringpi
+        sudo apt install git-core cmake flex
+
+- Download and install WiringPi library
+
+    I am no longer able to install the official wiringpi library from Gordon Henderson [wiringPi](http://wiringpi.com)
+    I am now using an unofficial mirror from: [https://github.com/WiringPi/WiringPi](https://github.com/WiringPi/WiringPi)
+
+        git clone https://github.com/WiringPi/WiringPi.git
+        cd WiringPi
+        sudo ./build
+        
+        Test the installation: gpio -v
 
 - Download and build vplotter:
 
