@@ -24,8 +24,13 @@ Build description will be made available on www.robertfriberg.no
         git clone https://github.com/WiringPi/WiringPi.git
         cd WiringPi
         sudo ./build
-        
-        Test the installation: gpio -v
+    
+    For the BLDC-motor to work gpio12 (wiringpi26) must be set to pwm-mode
+        gpio mode 26 ALT0
+
+        Check status with: gpio readall
+
+
 
 - Download and build vplotter:
 
