@@ -10,7 +10,7 @@ Build description will be made available on www.robertfriberg.no
 
 # Installation of the vplotter program #
 
-- Install raspian: [www.raspberrypi.org/downloads/](https://www.raspberrypi.org/downloads/)
+- Install Raspberry Pi OS: [www.raspberrypi.org/downloads/](https://www.raspberrypi.org/downloads/)
 
 - Install necessary packages: git, cmake, flex and [wiringPi](http://wiringpi.com)
 
@@ -48,7 +48,7 @@ Run the plotter with a g-code file:
 
 Stop the plotter with <kbd>Ctrl</kbd>+<kbd>C</kbd>.
 
-The Z-axis can lift or drop the pen. A value >0 lift the pen, and <=0 drop the pen.
+The Z-axis can lift or drop the pen. A value >0 lifts the pen, and <=0 drops the pen.
 
     G0 Z0 (move the pen down)
     G0 Z1 (raise the pen up)
