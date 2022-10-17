@@ -18,7 +18,7 @@ Build description will be made available on www.robertfriberg.no
 
 - Download and install WiringPi library
 
-    I am no longer able to install the official wiringpi library from Gordon Henderson [wiringPi](http://wiringpi.com)
+    I am no longer able to install the official wiringpi library from Gordon Henderson [wiringPi](http://wiringpi.com).
     I am now using an unofficial mirror from: [https://github.com/WiringPi/WiringPi](https://github.com/WiringPi/WiringPi)
 
         git clone https://github.com/WiringPi/WiringPi.git
