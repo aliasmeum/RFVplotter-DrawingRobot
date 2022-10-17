@@ -1,5 +1,5 @@
 # RFVplotter-DrawingRobot
-Design files are up to date 16.10.2022 and can be found here.
+Design files are up to date 17.10.2022 and can be found here.
 Build description will be made available on www.robertfriberg.no
 
 # Credits #
@@ -12,7 +12,7 @@ Build description will be made available on www.robertfriberg.no
 
 - Install raspian: [www.raspberrypi.org/downloads/](https://www.raspberrypi.org/downloads/)
 
-- Install necessary packages: git, cmake, flex, [wiringPi](http://wiringpi.com)
+- Install necessary packages: git, cmake, flex and [wiringPi](http://wiringpi.com)
 
         sudo apt-get install git-core cmake flex wiringpi
 
@@ -46,7 +46,7 @@ Run the plotter with a g-code file:
     sudo vplotter --x0=557 --y0=660 --baselength=1114 --z_up=16 --z_down=20 --steps=80 --bldc_dutycycle=55 < filename.ngc
 
 
-Stop the plotter type <kbd>Ctrl</kbd>+<kbd>C</kbd>.
+Stop the plotter with <kbd>Ctrl</kbd>+<kbd>C</kbd>.
 
 The Z-axis can lift or drop the pen. A value >0 lift the pen, and <=0 drop the pen.
 
