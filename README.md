@@ -26,9 +26,10 @@ Build description will be made available on www.robertfriberg.no
         sudo ./build
     
     For the BLDC-motor to work gpio12 (wiringpi26) must be set to pwm-mode
+        
         gpio mode 26 ALT0
-
-        Check status with: gpio readall
+        
+     Check status with: gpio readall
 
 
 
