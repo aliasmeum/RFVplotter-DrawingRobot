@@ -33,7 +33,8 @@ Build description will be made available on www.robertfriberg.no
      
         gpio readall
    
-    Warning! I am not able to set the gpio mode permanently to pwm, after reboot it has to be set again with: gpio mode 26 pwm
+    Warning!
+    I am not able to set the gpio mode permanently to pwm, after reboot it has to be set again with: gpio mode 26 pwm
     I had no problem with this using the original wiringPi library, and I have currently no solution for this.
 
 - Download and build vplotter
