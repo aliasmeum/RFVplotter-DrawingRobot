@@ -35,7 +35,7 @@ Build description will be made available on www.robertfriberg.no
 
 
 
-- Download and build vplotter:
+- Download and build vplotter
 
         git clone https://github.com/aliasmeum/RFVplotter-DrawingRobot.git
         cd RFVplotter-DrawingRobot-main\RFVplotterCode
@@ -67,7 +67,7 @@ Run the plotter with a g-code file:
 
 Stop the plotter with <kbd>Ctrl</kbd>+<kbd>C</kbd>.
 
-The Z-axis can lift or drop the pen. A value >0 lifts the pen, and <=0 drops the pen.
+The Z-axis can lift or drop the pen. A value >0 lifts the pen and <=0 drops the pen.
 
     G0 Z0 (move the pen down)
-    G0 Z1 (raise the pen up)
+    G0 Z1 (lift the pen up)
