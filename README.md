@@ -1,4 +1,7 @@
 # RFVplotter-DrawingRobot
+# 26.10.2022
+# Warning! I have found some inconsistency between the code and the wiring-diagrams, something is not up to date and I am looking into it. I will update as soon as I have gone through all the files.
+
 Design files are up to date 17.10.2022 and can be found here.
 Build description will be made available on www.robertfriberg.no
 
